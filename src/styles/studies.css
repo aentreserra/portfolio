@@ -1,0 +1,48 @@
+.studies-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.studies-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--clr-primary-light);
+}
+
+.studies-left {
+  padding-top: 5px;
+  width: 30px;
+}
+
+.studies-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.studies-right p,
+.studies-right h3 {
+  margin: 0;
+}
+
+.studies-year {
+  color: var(--clr-primary-light);
+  font-size: var(--fs-sm);
+}
+
+.studies-right h3 {
+  color: var(--clr-primary-dark);
+  font-size: var(--fs-xl);
+}
+
+.studies-description {
+  color: var(--clr-primary-light);
+  font-size: var(--fs-md);
+}
+
+.studies-school {
+  color: var(--clr-text-muted);
+  font-size: var(--fs-xs);
+}

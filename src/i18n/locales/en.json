@@ -1,0 +1,54 @@
+{
+  "nav.projects": "Projects",
+  "nav.skills": "Skills",
+  "nav.studies": "Studies",
+  "nav.contact": "Contact",
+  
+  "hero.title": "FULL STACK DEVELOPER",
+  "hero.name": "Adrià Entreserra",
+  "hero.slide": "SLIDE",
+
+  "about.title": "ABOUT ME",
+  "about.description": "I am Adrià Entreserra, a 24-year-old enthusiastic Full-Stack developer completing my DAM studies. My passion for programming, born from video games, has led me to specialize in React and React Native to create intuitive web and mobile experiences. With a background in 3D design and graphic development, I am looking to contribute creative and efficient solutions in my first professional opportunity.",
+
+  "projects.title": "PROJECTS",
+  "projects.viewWeb": "View Project",
+
+  "eppets.title": "EPPETS - Exotic Pet Management",
+  "eppets.description": "Comprehensive app for exotic pet care featuring weight tracking, reminders, medical history, a knowledge wiki, and an event community. Final degree project.",
+
+  "inkpal.title": "INKPAL - Reading Management",
+  "inkpal.description": "Reading management app with AI recommendations, a group reading community, advanced tracking, and a user-friendly interface in Spanish.",
+
+  "burnlock.title": "BurnLock - Offline Password Manager",
+  "burnlock.description": "Unique password manager that doesn't store data, works completely offline with a pattern system, and features secure sharing with self-destruction.",
+
+  "csstyle.title": "CSStyle.me - CSS Generators",
+  "csstyle.description": "Visual tools to generate CSS code: box-shadow, filters, inputs, and more. Currently operational and being used by developers.",
+
+  "shortmy.title": "ShortMy - Link Shortener",
+  "shortmy.description": "ShortMy is a complete link shortening website. It includes all features such as user registration, link statistics, and a custom QR code generator.",
+
+  "techs.title": "SKILLS",
+
+  "studies.title": "STUDIES",
+
+  "cifog.years": "2016-2018",
+  "cifog.title": "CFGM Interactive Graphic Product Assistant",
+  "cifog.school": "Cifog - Girona",
+  "cifog.description": "Multidisciplinary foundation: video editing, photography, 3D modeling, web programming, video game development, and graphic design.",
+
+  "fx.years": "2018-2022",
+  "fx.title": "Degree in 3D Design and Art for Video Games",
+  "fx.school": "Fx Animation - Barcelona",
+  "fx.description": "Degree studies at a private university in 3D design and art for video games, using 3ds MAX, Unity, Unreal Engine, Adobe programs, ZBrush, and many more.",
+
+  "florida.years": "2023-Present...",
+  "florida.title": "CFGS Multiplatform Application Development",
+  "florida.school": "Florida Universitaria - Valencia",
+  "florida.description": "Currently pursuing studies in multiplatform application development for different devices/platforms. Using programming languages, databases, and other content.",
+
+  "footer.title": "Let's Talk?",
+  "footer.description": "I am looking for my first professional opportunity. If your team needs a passionate and creative full-stack developer, I would love to learn more about your project.",
+  "footer.copy": "© 2025 ByAdri - Fullstack Developer"
+}

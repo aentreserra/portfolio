@@ -1,0 +1,25 @@
+---
+import '../styles/header.css';
+
+import LanguagePicker from './LanguagePicker.astro';
+
+const {
+  projects,
+  studies,
+  skills,
+  contact,
+  currentLang
+  } = Astro.props;
+---
+
+<header>
+  <ul>
+    <li><a href="#projects">{projects.toUpperCase()}</a></li>
+    <li><a href="#skills">{skills.toUpperCase()}</a></li>
+    <li><a href="#studies">{studies.toUpperCase()}</a></li>
+    <li><a href="#contact">{contact.toUpperCase()}</a></li>
+  </ul>
+  <LanguagePicker
+    currentLang={currentLang}
+  />
+</header>

@@ -1,0 +1,122 @@
+---
+import '../../styles/index.css';
+
+import MainLayout from '../../layouts/MainLayout.astro';
+
+import MainHeader from '../../components/Header.astro';
+import MainFooter from '../../components/Footer.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import StudiesItem from '../../components/StudiesItem.astro';
+
+import projects from '../../lib/projects.json';
+
+import { useTranslations, type TranslationKey } from '../../i18n/utils';
+
+export const getStaticPaths = (() => {
+	const locales = ['ca', 'es', 'en'];
+	return locales.map((lang) => ({
+		params: {lang: lang === 'es' ? undefined : lang}
+	}));
+});
+
+const { lang } = Astro.params;
+const currentLocale = lang || 'es';
+
+const t = useTranslations(currentLocale);
+
+const techs = ["React", "React Native", "HTML", "CSS", "JavaScript", "Rust", "SQL", "NoSQL", "Node.js", "C#", "Python", "Unreal Engine", "Unity", "Solidity"];
+---
+
+<MainLayout>
+	<MainHeader
+		projects={t("nav.projects")}
+		skills={t("nav.skills")}
+		studies={t("nav.studies")}
+		contact={t("nav.contact")}
+		currentLang={currentLocale}
+	/>
+	<main>
+		{/* Hero Section */}
+		<section id="hero-section">
+			<h1>{t('hero.title')}</h1>
+			<h2>{t('hero.name')}</h2>
+			<div id="hero-bottom">
+				<div id="moving-ball"/>
+				<p>{t("hero.slide")}</p>
+			</div>
+		</section>
+
+		{/* About Me Section */}
+		<section id="about">
+			<div class="section">
+				<h2 class="section-title">{t("about.title")}</h2>
+				<p>{t("about.description")}</p>
+			</div>
+		</section>
+
+		{/* Projects Section */}
+		<section id="projects">
+			<h2 class="section-title">{t("projects.title")}</h2>
+			<div id="projects-container">
+				{
+					projects.map(project => (
+						<ProjectCard
+							image="/project-thumbnails/short-my.jpg"
+							title={t(project.nameKey as TranslationKey)}
+							description={t(project.descriptionKey as TranslationKey)}
+							techs={project.techs}
+							ghLink={project.ghLink}
+							wbLink={project.wbLink}
+							viewWeb={t("projects.viewWeb")}
+						/>
+					))
+				}
+			</div>
+		</section>
+
+		{/* Skills Section */}
+		<section id="skills">
+			<h2 class="section-title">{t("techs.title")}</h2>
+			<div id="tech-tags-container">
+			{
+				techs.map(tech => (
+					<span class="big-tech-tag">{tech}</span>
+				))
+			}
+			</div>
+		</section>
+
+		{/* Studies Section */}
+		<section id="studies">
+			<h2 class="section-title">{t("studies.title")}</h2>
+			<div id="studies-index-container">
+				<StudiesItem
+					years={t("cifog.years")}
+					studiesName={t("cifog.title")}
+					studiesDescription={t("cifog.description")}
+					school={t("cifog.school")}
+				/>
+				<StudiesItem
+					years={t("fx.years")}
+					studiesName={t("fx.title")}
+					studiesDescription={t("fx.description")}
+					school={t("fx.school")}
+				/>
+				<StudiesItem
+					years={t("florida.years")}
+					studiesName={t("florida.title")}
+					studiesDescription={t("florida.description")}
+					school={t("florida.school")}
+				/>
+			</div>
+		</section>
+
+	</main>
+
+	{/* Contact Section */}
+	<MainFooter 
+		title={t("footer.title")}
+		description={t("footer.description")}
+		copy={t("footer.copy")}
+	/>
+</MainLayout>

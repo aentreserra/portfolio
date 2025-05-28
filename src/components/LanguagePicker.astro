@@ -1,0 +1,23 @@
+---
+const {currentLang} = Astro.props;
+
+const protocol = Astro.url.protocol;
+const urlHost = Astro.url.host;
+const currentPath = Astro.url.pathname.replace(/^\/(en|ca)/, '');
+
+const caLocate = `${protocol}//${urlHost}/ca${currentPath}`;
+const esLocate = `${protocol}//${urlHost}${currentPath}`;
+const enLocate = `${protocol}//${urlHost}/en${currentPath}`;
+---
+
+<div id="lang-picker">
+  <a href={caLocate} id=`${currentLang === 'ca' && 'active'}` hreflang="ca">
+    CA
+  </a>
+  <a href={esLocate} id=`${currentLang === 'es' && 'active'}` hreflang="es">
+    ES
+  </a>
+  <a href={enLocate} id=`${currentLang === 'en' && 'active'}` hreflang="en">
+    EN
+  </a>
+</div>

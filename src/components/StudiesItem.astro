@@ -1,0 +1,22 @@
+---
+import '../styles/studies.css';
+
+const {
+  years,
+  studiesName,
+  studiesDescription,
+  school
+} = Astro.props;
+---
+
+<div class="studies-container">
+  <div class="studies-left">
+    <div class="studies-dot"/>
+  </div>
+  <div class="studies-right">
+    <p class="studies-year">{years}</p>
+    <h3>{studiesName}</h3>
+    <p class="studies-school">{school}</p>
+    <p class="studies-description">{studiesDescription}</p>
+  </div>
+</div>

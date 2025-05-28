@@ -1,0 +1,54 @@
+{
+  "nav.projects": "Projectes",
+  "nav.skills": "Habilitats",
+  "nav.studies": "Estudis",
+  "nav.contact": "Contacte",
+  
+  "hero.title": "DESENVOLUPADOR FULL STACK",
+  "hero.name": "Adrià Entreserra",
+  "hero.slide": "LLISCA",
+
+  "about.title": "SOBRE MI",
+  "about.description": "Sóc l'Adrià Entreserra, un entusiasta desenvolupador Full-Stack de 24 anys que està finalitzant els estudis DAM. La meva passió per la programació, nascuda amb els videojocs, m'ha portat a especialitzar-me en React i React Native per crear experiències web i mòbils intuïtives. Amb una base en disseny 3D i desenvolupament gràfic, busco aportar solucions creatives i eficients en la meva primera oportunitat professional.",
+
+  "projects.title": "PROJECTES",
+  "projects.viewWeb": "Veure Projecte",
+
+  "eppets.title": "EPPETS - Gestió de Mascotes Exòtiques",
+  "eppets.description": "App integral per a la cura de mascotes exòtiques amb seguiment de pes, recordatoris, historial clínic, wiki de coneixement i comunitat d'esdeveniments. Projecte final de grau.",
+
+  "inkpal.title": "INKPAL - Gestió de Lectures",
+  "inkpal.description": "App de gestió de lectures amb recomanacions IA, comunitat de lectura grupal, seguiment avançat i interfície amigable en espanyol.",
+
+  "burnlock.title": "BurnLock - Gestor de Contrasenyes Fora de Línia",
+  "burnlock.description": "Gestor de contrasenyes únic que no emmagatzema dades, funciona completament fora de línia amb sistema de patrons i compartició segura amb autodestrucció.",
+
+  "csstyle.title": "CSStyle.me - Generadors CSS",
+  "csstyle.description": "Eines visuals per generar codi CSS: box-shadow, filtres, inputs i més. Actualment en funcionament i sent utilitzada per desenvolupadors.",
+
+  "shortmy.title": "ShortMy - Escurçador d'enllaços",
+  "shortmy.description": "ShortMy és un web d'escurçament d'enllaços complet. Té totes les funcions com registre d'usuaris, estadístiques d'enllaços i generador de codis QR personalitzats.",
+
+  "techs.title": "HABILITATS",
+
+  "studies.title": "ESTUDIS",
+
+  "cifog.years": "2016-2018",
+  "cifog.title": "CFGM Assistent al Producte Gràfic Interactiu",
+  "cifog.school": "Cifog - Girona",
+  "cifog.description": "Base multidisciplinària: edició de vídeo, fotografia, modelatge 3D, programació web, desenvolupament de videojocs i disseny gràfic.",
+
+  "fx.years": "2018-2022",
+  "fx.title": "Carrera de Disseny i Art 3D per a Videojocs",
+  "fx.school": "Fx Animation - Barcelona",
+  "fx.description": "Estudis de carrera en universitat privada de disseny i art 3D per a videojocs utilitzant 3ds MAX, Unity, Unreal Engine, programes d'Adobe, ZBrush i molts més.",
+
+  "florida.years": "2023-Actualitat...",
+  "florida.title": "CFGS Desenvolupament d'Aplicacions Multiplataforma",
+  "florida.school": "Florida Universitària - València",
+  "florida.description": "Actualment cursant els estudis de desenvolupament d'aplicacions multiplataforma per a diferents dispositius/plataformes. Utilitzant llenguatges de programació, bases de dades i altres continguts.",
+
+  "footer.title": "Parlem?",
+  "footer.description": "Estic buscant la meva primera oportunitat professional. Si el teu equip necessita un desenvolupador full-stack apassionat i creatiu, m'encantaria conèixer més sobre el teu projecte.",
+  "footer.copy": "© 2025 ByAdri - Desenvolupador Full Stack"
+}

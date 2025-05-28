@@ -1,0 +1,54 @@
+{
+  "nav.projects": "Proyectos",
+  "nav.skills": "Habilidades",
+  "nav.studies": "Estudios",
+  "nav.contact": "Contacto",
+  
+  "hero.title": "DESARROLLADOR FULL STACK",
+  "hero.name": "Adrià Entreserra",
+  "hero.slide": "DESLIZA",
+
+  "about.title": "SOBRE MÍ",
+  "about.description": "Soy Adrià Entreserra, un entusiasta desarrollador Full-Stack de 24 años finalizando los estudios DAM. Mi pasión por la programación, nacida con los videojuegos, me ha llevado a especializarme en React y React Native para crear experiencias web y móviles intuitivas. Con una base en diseño 3D y desarrollo gráfico, busco aportar soluciones creativas y eficientes en mi primera oportunidad profesional.",
+
+  "projects.title": "PROYECTOS",
+  "projects.viewWeb": "Ver Proyecto",
+
+  "eppets.title": "EPPETS - Gestión de Mascotas Exóticas",
+  "eppets.description": "App integral para el cuidado de mascotas exóticas con tracking de peso, recordatorios, historial clínico, wiki de conocimiento y comunidad de eventos. Proyecto final de grado.",
+
+  "inkpal.title": "INKPAL - Gestión de Lecturas",
+  "inkpal.description": "App de gestión de lecturas con recomendaciones IA, comunidad de lectura grupal, tracking avanzado y interfaz amigable en español.",
+
+  "burnlock.title": "BurnLock - Gestor de Contraseñas Offline",
+  "burnlock.description": "Gestor de contraseñas único que no almacena datos, funciona completamente offline con sistema de patrones y compartición segura con autodestrucción.",
+
+  "csstyle.title": "CSStyle.me - Generadores CSS",
+  "csstyle.description": "Herramientas visuales para generar código CSS: box-shadow, filtros, inputs y más. Actualmente en funcionamiento y siendo utilizada por desarrolladores.",
+
+  "shortmy.title": "ShortMy - Acortador de enlaces",
+  "shortmy.description": "ShortMy es una web de acortamiento de enlaces completa. Tiene todas las funciones como registro de usuarios, estadísticas de enlaces y generador de códigos QR personalizados.",
+
+  "techs.title": "HABILIDADES",
+
+  "studies.title": "ESTUDIOS",
+
+  "cifog.years": "2016-2018",
+  "cifog.title": "CFGM Asistente al Producto Gráfico Interactivo",
+  "cifog.school": "Cifog - Girona",
+  "cifog.description": "Base multidisciplinar: edición de video, fotografía, modelado 3D, programación web, desarrollo de videojuegos y diseño gráfico.",
+
+  "fx.years": "2018-2022",
+  "fx.title": "Carrera de Diseño y Arte 3D para Videojuegos",
+  "fx.school": "Fx Animation - Barcelona",
+  "fx.description": "Estudios de carrera en universidad privada de diseño y arte 3D para videojuegos utilizando 3ds MAX, Unity, Unreal Engine, programas de Adobe, ZBrush y muchos más.",
+
+  "florida.years": "2023-Actualidad...",
+  "florida.title": "CFGS Desarrollo de Aplicaciones Multiplataforma",
+  "florida.school": "Florida Universitaria - Valencia",
+  "florida.description": "Actualmente cursando los estudios de desarrollo de aplicaciones multiplataforma para diferentes dispositivos/plataformas. Utilizando lenguajes de programación, bases de datos y otros contenidos.",
+
+  "footer.title": "¿Hablamos?",
+  "footer.description": "Estoy buscando mi primera oportunidad profesional. Si tu equipo necesita un desarrollador fullstack apasionado y creativo, me encantaría conocer más sobre tu proyecto.",
+  "footer.copy": "© 2025 ByAdri - Fullstack Developer"
+}

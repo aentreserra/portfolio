@@ -1,0 +1,21 @@
+---
+import '../styles/footer.css';
+
+const {
+  title,
+  description,
+  copy
+} = Astro.props;
+---
+
+<footer id="contact">
+  <h2>{title}</h2>
+  <p>{description}</p>
+  <p id="footer-mail">hello@byadri.dev</p>
+  <div>
+    <a href="mailto:hello@byadri.dev" rel="nofollow">Email</a>
+    <a href="http://github.com/aentreserra/" target="_blank" rel="nofollow">Github</a>
+    <a href="" target="_blank" rel="nofollow">CV</a>
+  </div>
+  <p id="footer-copy">{copy}</p>
+</footer>
