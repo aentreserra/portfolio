@@ -65,6 +65,7 @@ section {
 .section {
   max-width: 1400px;
   text-align: center;
+  padding: 1rem;
 }
 
 .section-title {
@@ -118,7 +119,7 @@ section {
 #studies-index-container {
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  width: 90vw;
   border-left: 2px solid var(--clr-primary-dark);
   padding: 13px;
   gap: 25px;
@@ -188,6 +189,9 @@ section {
   #projects-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  #studies-index-container {
+    width: 65vw;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -203,5 +207,11 @@ section {
 @media (min-width: 1500px) {
   #projects-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 2000px) {
+  #projects-container {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

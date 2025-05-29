@@ -1,0 +1,36 @@
+{
+  "metaTitleKey": "projects.csstyle.metaTitle",
+  "metaDescriptionKey": "projects.csstyle.metaDescription",
+  "titleKey": "projects.csstyle.pageTitle",
+  "descriptionKey": "projects.csstyle.pageDescription",
+  "statusKey": "projects.csstyle.status",
+  "status": "completed",
+  "liveLink": "https://www.csstyle.me",
+  "githubLink": "",
+  "mainImage": "/project-images/csstyle/main.webp",
+  "images": [],
+  "goalKey": "projects.csstyle.description.heading",
+  "goalDescriptionKey": "projects.csstyle.description.p1",
+  "techStack": [
+    "Gatsby", "React", "CSS"
+  ],
+  "challenges": [
+    {
+      "titleKey": "projects.csstyle.challange1.title",
+      "descriptionKey": "projects.csstyle.challange1.description"
+    },
+    {
+      "titleKey": "projects.csstyle.challange2.title",
+      "descriptionKey": "projects.csstyle.challange2.description"
+    },
+    {
+      "titleKey": "projects.csstyle.challange3.title",
+      "descriptionKey": "projects.csstyle.challange3.description"
+    },
+    {
+      "titleKey": "projects.csstyle.challange4.title",
+      "descriptionKey": "projects.csstyle.challange4.description"
+    }
+  ],
+  "learningsKey": "projects.csstyle.learnings"
+}

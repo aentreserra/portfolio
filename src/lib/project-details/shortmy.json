@@ -1,0 +1,36 @@
+{
+  "metaTitleKey": "projects.shortmy.metaTitle",
+  "metaDescriptionKey": "projects.shortmy.metaDescription",
+  "titleKey": "projects.shortmy.pageTitle",
+  "descriptionKey": "projects.shortmy.pageDescription",
+  "statusKey": "projects.shortmy.status",
+  "status": "archived",
+  "liveLink": "https://shortmy.vercel.app",
+  "githubLink": "",
+  "mainImage": "/project-images/shortmy/main.webp",
+  "images": [],
+  "goalKey": "projects.shortmy.description.heading",
+  "goalDescriptionKey": "projects.shortmy.description.p1",
+  "techStack": [
+    "React", "Firebase Cloud Functions", "MySQL"
+  ],
+  "challenges": [
+    {
+      "titleKey": "projects.shortmy.challange1.title",
+      "descriptionKey": "projects.shortmy.challange1.description"
+    },
+    {
+      "titleKey": "projects.shortmy.challange2.title",
+      "descriptionKey": "projects.shortmy.challange2.description"
+    },
+    {
+      "titleKey": "projects.shortmy.challange3.title",
+      "descriptionKey": "projects.shortmy.challange3.description"
+    },
+    {
+      "titleKey": "projects.shortmy.challange4.title",
+      "descriptionKey": "projects.shortmy.challange4.description"
+    }
+  ],
+  "learningsKey": "projects.shortmy.learnings"
+}

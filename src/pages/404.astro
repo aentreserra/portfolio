@@ -1,22 +1,26 @@
 ---
-import '../styles/global.css';
+import '../styles/404.css';
+
+import MainLayout from '../layouts/MainLayout.astro';
+
+const currentLocale = Astro.currentLocale || 'es';
+const homeLink = currentLocale === 'es' ? '/' : currentLocale === 'ca' ? '/ca' : '/en';
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-      <meta charset="utf-8"/>
-      <link rel="icon" href="/favicon.ico">
-		  <meta name="generator" content={Astro.generator} />
-      <meta name="viewport" content="width=device-width,initial-scale=1"/>
-      <meta name="theme-color" content="#000000"/>
-      <meta name="title" content="404 Not found"/>
-      <title>Page not found</title>
-  </head>
-	<body>
-    <main id="not-found-container">
-      <h2 id="not-found">Page not found.</h2>
-    </main>
-    <div id="full-noise-grain" />
-	</body>
-</html>
+<MainLayout
+  currentLocale={"en"}
+>
+  <main id="not-found-page">
+    <div class="not-found-content">
+      <div class="error-code">404</div>
+      <h1>Ups! Page not found</h1>
+      <p>Seams like the page you're looking for doesn't exist.</p>
+      <p>Don't worry, you can go back to the home page</p>
+      <div class="actions">
+        <a href={homeLink} class="button-primary">
+          Go to Home
+        </a>
+      </div>
+    </div>
+  </main>
+</MainLayout>

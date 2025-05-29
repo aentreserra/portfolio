@@ -1,0 +1,110 @@
+---
+import '../../../styles/projects.css';
+
+import { Image } from 'astro:assets';
+import MainLayout from "../../../layouts/MainLayout.astro";
+import MainFooter from "../../../components/Footer.astro";
+import { useTranslations, type TranslationKey, type SupportedLocale, defaultLocale } from "../../../i18n/utils";
+import projectDetailsData from "../../../lib/project-details";
+
+export async function getStaticPaths() {
+  const locales: SupportedLocale[] = ["ca", "es", "en"];
+  const projectSlugs = Object.keys(projectDetailsData) as (keyof typeof projectDetailsData)[];
+
+  const paths = [];
+  for (const locale of locales) {
+    for (const slug of projectSlugs) {
+      paths.push({
+        params: {
+          lang: locale === defaultLocale ? undefined : locale,
+          slug: slug
+        },
+        props: { projectData: projectDetailsData[slug] }
+      });
+    }
+  }
+  return paths;
+}
+
+const { lang, slug } = Astro.params;
+const { projectData } = Astro.props;
+
+const currentLocale = (lang as SupportedLocale) || defaultLocale;
+const t = useTranslations(currentLocale);
+---
+
+<MainLayout
+  metaTitle={t(projectData.metaTitleKey as TranslationKey)}
+  metaDescription={t(projectData.metaDescriptionKey as TranslationKey)}
+  ogTitle={t(projectData.metaTitleKey as TranslationKey)}
+  ogDescription={t(projectData.metaDescriptionKey as TranslationKey)}
+  currentLocale={currentLocale}
+>
+  <article>
+    <header>
+      <h1>{t(projectData.titleKey as TranslationKey)}</h1>
+      <p>{t(projectData.descriptionKey as TranslationKey)}</p>
+      <p class={`project-status ${projectData.status}`}>{t(projectData.statusKey as TranslationKey)}</p>
+      <div class="main-links">
+        {projectData.liveLink && (<a href={projectData.liveLink} target="_blank" rel="noopener noreferrer">{t("projects.viewLive")}</a>)}
+        {projectData.githubLink && (<a href={projectData.githubLink} target="_blank" rel="noopener noreferrer">{t("projects.viewOnGitHub")}</a>)}
+      </div>
+    </header>
+
+    <main>
+      {/* Project Main Image */}
+      <section class="project-visuals">
+        <Image
+          width={1200}
+          height={675}
+          loading="eager" 
+          src={projectData.mainImage}
+          alt={t(projectData.titleKey as TranslationKey)}
+          class="main-image"
+          transition:name={`project-image-${slug}`}
+        />
+      </section>
+
+      <section class="project-goal">
+        <h3>{t(projectData.goalKey as TranslationKey)}</h3>
+        <p>{t(projectData.goalDescriptionKey as TranslationKey)}</p>
+      </section>
+
+      {/* Project Tech Stack */}
+      <section class="project-stack">
+        <h2>{t("projects.stackTitle")}</h2>
+        <ul class="tech-list">
+          {projectData.techStack.map((tech: string) => (
+            <li>
+              <span>{tech}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* Project Challenges */}
+      <section class="project-challenges">
+        <h2>{t("projects.challengeTitle")}</h2>
+          {projectData.challenges.map((challenge: {titleKey: string, descriptionKey: string}) => (
+            <div class="challenge-item">
+              <h3 class="challenge-text">{t(challenge.titleKey as TranslationKey)}</h3>
+              <p class="challenge-description">{t(challenge.descriptionKey as TranslationKey)}</p>
+            </div>
+          ))}
+      </section>
+
+      {/* Project Learnings */}
+      <section class="project-learnings">
+        <h2>{t("projects.learnTitle")}</h2>
+        <p>{t(projectData.learningsKey as TranslationKey)}</p>
+      </section>
+    </main>
+  </article>
+
+  {/* Contact Section */}
+  <MainFooter 
+    title={t("footer.title")}
+    description={t("footer.description")}
+    copy={t("footer.copy")}
+  />
+</MainLayout>

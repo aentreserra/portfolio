@@ -8,6 +8,8 @@ const currentPath = Astro.url.pathname.replace(/^\/(en|ca)/, '');
 const caLocate = `${protocol}//${urlHost}/ca${currentPath}`;
 const esLocate = `${protocol}//${urlHost}${currentPath}`;
 const enLocate = `${protocol}//${urlHost}/en${currentPath}`;
+
+Astro.cookies.set('lang', currentLang);
 ---
 
 <div id="lang-picker">

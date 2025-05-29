@@ -2,36 +2,49 @@
 import '../styles/project-card.css';
 
 import { Image } from 'astro:assets';
+import { defaultLocale } from '../i18n/utils';
 
 const {
+  projectSlug,
   image,
   title,
   description,
   techs,
   ghLink,
-  wbLink,
   viewWeb
 } = Astro.props;
+
+const projectUrl = `${Astro.currentLocale !== defaultLocale ? `/${Astro.currentLocale}` : ''}/projects/${projectSlug}`;
 ---
 
 <div class="project-card">
-  <div class="project-image">
-    {image && <Image src={image} alt={title} width={482} height={270}/>}
-  </div>
-  <div class="project-card-outline" />
-  <div class="project-content">
-    <h3 class="project-title">{title}</h3>
-    <p class="project-description">{description}</p>
-    <div class="project-tags">
-      {
-        techs.map((tech: string) => (
-          <span class="tech-tag">{tech}</span>
-        ))
+  <a href={projectUrl} class="project-card-link-wrapper">
+    <div class="project-image">
+      {image && 
+        <Image 
+          src={image}
+          alt={title}
+          width={482}
+          height={270}
+          transition:name={`project-image-${projectSlug}`}
+        />
       }
     </div>
-    <div class="project-links">
-      {wbLink && <a href={wbLink}>{viewWeb}</a>}
-      {ghLink && <a href={ghLink}>Github</a>}
+    <div class="project-card-outline" />
+    <div class="project-content">
+      <h3 class="project-title">{title}</h3>
+      <p class="project-description">{description}</p>
+      <div class="project-tags">
+        {
+          techs.map((tech: string) => (
+            <span class="tech-tag">{tech}</span>
+          ))
+        }
+      </div>
+      <div class="project-links">
+        {projectUrl && <a href={projectUrl} class="project-web">{viewWeb}</a>}
+        {ghLink && <a href={ghLink} rel="noopener noreferrer" class="project-gh">Github</a>}
+      </div>
     </div>
-  </div>
+  </a>
 </div>

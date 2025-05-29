@@ -1,0 +1,36 @@
+{
+  "metaTitleKey": "projects.eppets.metaTitle",
+  "metaDescriptionKey": "projects.eppets.metaDescription",
+  "titleKey": "projects.eppets.pageTitle",
+  "descriptionKey": "projects.eppets.pageDescription",
+  "statusKey": "projects.eppets.status",
+  "status": "completed",
+  "liveLink": "",
+  "githubLink": "https://github.com/aentreserra/eppets-app",
+  "mainImage": "/project-images/eppets/main.webp",
+  "images": [],
+  "goalKey": "projects.eppets.description.heading",
+  "goalDescriptionKey": "projects.eppets.description.p1",
+  "techStack": [
+    "React Native", "Expo", "Firebase", "Turso SQLite", "JWT"
+  ],
+  "challenges": [
+    {
+      "titleKey": "projects.eppets.challange1.title",
+      "descriptionKey": "projects.eppets.challange1.description"
+    },
+    {
+      "titleKey": "projects.eppets.challange2.title",
+      "descriptionKey": "projects.eppets.challange2.description"
+    },
+    {
+      "titleKey": "projects.eppets.challange3.title",
+      "descriptionKey": "projects.eppets.challange3.description"
+    },
+    {
+      "titleKey": "projects.eppets.challange4.title",
+      "descriptionKey": "projects.eppets.challange4.description"
+    }
+  ],
+  "learningsKey": "projects.eppets.learnings"
+}

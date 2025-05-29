@@ -1,42 +1,42 @@
 [
   {
-    "image": "",
+    "slug": "eppets",
+    "image": "/project-thumbnails/eppets.webp",
     "nameKey": "eppets.title",
     "descriptionKey": "eppets.description",
     "techs": ["Expo React Native", "Firebase", "JWT", "Turso SQLite"],
-    "ghLink": "https://github.com/aentreserra/eppets-app",
-    "wbLink": "http://shortmy.vercel.app/"
+    "ghLink": "https://github.com/aentreserra/eppets-app"
   },
   {
-    "image": "",
+    "slug": "burnlock",
+    "image": "/project-thumbnails/burnlock.webp",
     "nameKey": "burnlock.title",
     "descriptionKey": "burnlock.description",
     "techs": ["Expo React Native", "Firebase"],
-    "ghLink": null,
-    "wbLink": null
-  },
-    {
-    "image": "",
-    "nameKey": "inkpal.title",
-    "descriptionKey": "inkpal.description",
-    "techs": ["Expo React Native", "Firebase", "JWT", "Turso SQLite", "Google Books Api"],
-    "ghLink": null,
-    "wbLink": null
+    "ghLink": null
   },
   {
-    "image": "",
+    "slug": "inkpal",
+    "image": "/project-thumbnails/inkpal.webp",
+    "nameKey": "inkpal.title",
+    "descriptionKey": "inkpal.description",
+    "techs": ["Expo React Native", "Firebase", "JWT", "MySQL", "Google Books Api"],
+    "ghLink": null
+  },
+  {
+    "slug": "csstyle",
+    "image": "/project-thumbnails/csstyle.webp",
     "nameKey": "csstyle.title",
     "descriptionKey": "csstyle.description",
     "techs": ["Gatsby", "React", "CSS"],
-    "ghLink": null,
-    "wbLink": "https://csstyle.me/"
+    "ghLink": null
   },
-    {
-    "image": "/project-thumbnails/short-my.jpg",
+  {
+    "slug": "shortmy",
+    "image": "/project-thumbnails/short-my.webp",
     "nameKey": "shortmy.title",
     "descriptionKey": "shortmy.description",
-    "techs": ["React", "Firebase", "MySql"],
-    "ghLink": null,
-    "wbLink": "http://shortmy.vercel.app/"
+    "techs": ["React", "Firebase", "MySQL"],
+    "ghLink": null
   }
 ]

@@ -1,0 +1,36 @@
+{
+  "metaTitleKey": "projects.burnlock.metaTitle",
+  "metaDescriptionKey": "projects.burnlock.metaDescription",
+  "titleKey": "projects.burnlock.pageTitle",
+  "descriptionKey": "projects.burnlock.pageDescription",
+  "statusKey": "projects.burnlock.status",
+  "status": "in-progress",
+  "liveLink": "",
+  "githubLink": "",
+  "mainImage": "/project-images/burnlock/main.webp",
+  "images": [],
+  "goalKey": "projects.burnlock.description.heading",
+  "goalDescriptionKey": "projects.burnlock.description.p1",
+  "techStack": [
+    "React Native", "Expo", "Firebase"
+  ],
+  "challenges": [
+    {
+      "titleKey": "projects.burnlock.challange1.title",
+      "descriptionKey": "projects.burnlock.challange1.description"
+    },
+    {
+      "titleKey": "projects.burnlock.challange2.title",
+      "descriptionKey": "projects.burnlock.challange2.description"
+    },
+    {
+      "titleKey": "projects.burnlock.challange3.title",
+      "descriptionKey": "projects.burnlock.challange3.description"
+    },
+    {
+      "titleKey": "projects.burnlock.challange4.title",
+      "descriptionKey": "projects.burnlock.challange4.description"
+    }
+  ],
+  "learningsKey": "projects.burnlock.learnings"
+}

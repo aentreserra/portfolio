@@ -24,10 +24,17 @@ const currentLocale = lang || 'es';
 
 const t = useTranslations(currentLocale);
 
-const techs = ["React", "React Native", "HTML", "CSS", "JavaScript", "Rust", "SQL", "NoSQL", "Node.js", "C#", "Python", "Unreal Engine", "Unity", "Solidity"];
+const techs = ["React", "React Native", "HTML", "CSS", "JavaScript", "Java", "Rust", "SQL", "NoSQL", "Node.js", "C#", "Python", "Unreal Engine", 
+							"Unity", "Solidity", "Photoshop", "Illustrator","Figma", "Git", "Linux", "TypeScript", "Astro", "Web 3"] ;
 ---
 
-<MainLayout>
+<MainLayout
+	title={t("landing.title")}
+	description={t("landing.description")}
+	ogTitle={t("landing.ogTitle")}
+	ogDescription={t("landing.ogDescription")}
+	currentLocale={currentLocale}
+>
 	<MainHeader
 		projects={t("nav.projects")}
 		skills={t("nav.skills")}
@@ -61,12 +68,12 @@ const techs = ["React", "React Native", "HTML", "CSS", "JavaScript", "Rust", "SQ
 				{
 					projects.map(project => (
 						<ProjectCard
-							image="/project-thumbnails/short-my.jpg"
+							projectSlug={project.slug}
+							image={project.image}
 							title={t(project.nameKey as TranslationKey)}
 							description={t(project.descriptionKey as TranslationKey)}
 							techs={project.techs}
 							ghLink={project.ghLink}
-							wbLink={project.wbLink}
 							viewWeb={t("projects.viewWeb")}
 						/>
 					))

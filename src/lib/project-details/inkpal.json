@@ -1,0 +1,36 @@
+{
+  "metaTitleKey": "projects.inkpal.metaTitle",
+  "metaDescriptionKey": "projects.inkpal.metaDescription",
+  "titleKey": "projects.inkpal.pageTitle",
+  "descriptionKey": "projects.inkpal.pageDescription",
+  "statusKey": "projects.inkpal.status",
+  "status": "archived",
+  "liveLink": "",
+  "githubLink": "",
+  "mainImage": "/project-images/inkpal/main.webp",
+  "images": [],
+  "goalKey": "projects.inkpal.description.heading",
+  "goalDescriptionKey": "projects.inkpal.description.p1",
+  "techStack": [
+    "React Native", "Expo", "Firebase", "MySQL", "JWT", "Google Books API", "OpenAI API", "AdMob"
+  ],
+  "challenges": [
+    {
+      "titleKey": "projects.inkpal.challange1.title",
+      "descriptionKey": "projects.inkpal.challange1.description"
+    },
+    {
+      "titleKey": "projects.inkpal.challange2.title",
+      "descriptionKey": "projects.inkpal.challange2.description"
+    },
+    {
+      "titleKey": "projects.inkpal.challange3.title",
+      "descriptionKey": "projects.inkpal.challange3.description"
+    },
+    {
+      "titleKey": "projects.inkpal.challange4.title",
+      "descriptionKey": "projects.inkpal.challange4.description"
+    }
+  ],
+  "learningsKey": "projects.inkpal.learnings"
+}
