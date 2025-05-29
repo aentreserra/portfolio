@@ -1,13 +1,11 @@
 ---
 const {currentLang} = Astro.props;
 
-const protocol = Astro.url.protocol;
-const urlHost = Astro.url.host;
 const currentPath = Astro.url.pathname.replace(/^\/(en|ca)/, '');
 
-const caLocate = `${protocol}//${urlHost}/ca${currentPath}`;
-const esLocate = `${protocol}//${urlHost}${currentPath}`;
-const enLocate = `${protocol}//${urlHost}/en${currentPath}`;
+const caLocate = `https://byadri.dev/ca${currentPath}`;
+const esLocate = `https://byadri.dev${currentPath}`;
+const enLocate = `https://byadri.dev/en${currentPath}`;
 
 Astro.cookies.set('lang', currentLang);
 ---

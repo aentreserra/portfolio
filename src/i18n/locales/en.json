@@ -3,7 +3,7 @@
   "landing.description": "I'm Adrià Entreserra, a Full Stack developer passionate about creating intuitive web and mobile solutions. Explore my projects developed with React, Astro, and more.",
   "landing.keywords": "Adrià Entreserra, portfolio, Full Stack developer, React, React Native, projects, skills, studies, cross-platform applications",
   "landing.ogTitle": "Adrià Entreserra | Full Stack Developer Portfolio",
-  "landing.ogDescription": "Discover the projects of a full stack developer",
+  "landing.ogDescription": "Discover the projects and skills of Adrià Entreserra, a Full Stack Developer specializing in React, React Native, and modern technologies.",
 
   "nav.projects": "Projects",
   "nav.skills": "Skills",
@@ -63,6 +63,8 @@
   "footer.description": "I am looking for my first professional opportunity. If your team needs a passionate and creative Full-Stack developer, I would love to learn more about your project.",
   "footer.copy": "© 2025 ByAdri - Full-Stack Developer",
 
+  "projects.eppets.metaTitle": "Eppets Project | Pet Management App by Adrià Entreserra",
+  "projects.eppets.metaDescription": "Discover Eppets, a mobile app for exotic pet care. Adrià Entreserra's final degree project using React Native and Firebase.",
   "projects.eppets.pageTitle": "Eppets - Comprehensive Pet Management",
   "projects.eppets.pageDescription": "Eppets, my final degree project, is a comprehensive mobile application designed for the exhaustive care of all types of pets, with a special focus on the needs of exotic ones. It allows owners to perform detailed weight tracking, manage veterinary reminders, maintain a clinical history, access a specific care wiki, and connect with a community for events.",
   "projects.eppets.status": "Being published on Google Play...",
@@ -78,6 +80,8 @@
   "projects.eppets.challange4.description": "I developed a wiki section where users can find information on caring for different types of exotic pets. Additionally, I implemented a community for users to share events and experiences, fostering a sense of community among exotic pet owners.",
   "projects.eppets.learnings": "This project was key to consolidating my full-stack mobile development skills. I delved deeper into integrating services like Firebase and Turso SQLite, implementing secure authentication, and designing user-centered applications with React Native. I learned to manage sensitive data and build a robust, market-ready application.",
 
+  "projects.burnlock.metaTitle": "BurnLock Project | Offline Password Manager by Adrià",
+  "projects.burnlock.metaDescription": "Explore BurnLock, an offline password manager with local generation and secure sharing. Developed by Adrià Entreserra.",
   "projects.burnlock.pageTitle": "BurnLock - Offline Password Manager",
   "projects.burnlock.pageDescription": "BurnLock is a privacy-first mobile application for generating secure and truly random passwords, operating completely offline and without storing sensitive data. Its innovative password sharing system splits the unlock key between the user and a minimal server (which does not store the hashed password), enabling secure 2FA implementation for shared access.",
   "projects.burnlock.status": "In Development...",
@@ -93,6 +97,8 @@
   "projects.burnlock.challange4.description": "I designed an easy-to-use interface, enter and create, allowing the user to save presets for use at any time.",
   "projects.burnlock.learnings": "With BurnLock, I strengthened my knowledge in security, basic cryptography, and robust randomness generation. It was a practical exercise in implementing 2FA and designing mobile architectures that minimize data exposure. This project allowed me to apply React Native and Firebase in a context where user privacy is paramount.",
 
+  "projects.inkpal.metaTitle": "InkPal Project | Reading Management App by Adrià",
+  "projects.inkpal.metaDescription": "Learn about InkPal, a React Native app project for reading management. An early mobile development learning experience by Adrià Entreserra.",
   "projects.inkpal.pageTitle": "InkPal - Reading Management",
   "projects.inkpal.pageDescription": "InkPal was one of my first React Native developments, conceived as a mobile app to organize readings, discover books, and connect with other readers. Although its development was discontinued due to limitations in the Google Books API quota, the project was fundamental to my early learning in creating mobile applications and integrating external services.",
   "projects.inkpal.status": "Archived...",
@@ -108,6 +114,8 @@
   "projects.inkpal.challange4.description": "I designed an intuitive and attractive user-centric interface that facilitates navigation and reading management. The application included features such as reading tracking, book ratings, a friends system to connect with other readers, user profiles, and gamification.",
   "projects.inkpal.learnings": "InkPal was a crucial stage in my development: I first faced the integration of third-party APIs (and their challenges), explored concepts of recommendation systems, and reinforced the importance of an attractive UI. Although it didn't reach production, it laid the foundation for my React Native and Firebase skills, and taught me valuable lessons about the viability of projects dependent on external APIs.",
 
+  "projects.csstyle.metaTitle": "CSStyle.me | CSS Generators by Adrià Entreserra",
+  "projects.csstyle.metaDescription": "CSStyle.me, a web tool with visual CSS generators created by Adrià Entreserra. Simplify your CSS workflow.",
   "projects.csstyle.pageTitle": "CSStyle.me - CSS Generators for Developers",
   "projects.csstyle.pageDescription": "CSStyle.me is a web tool I developed to simplify developers' lives, allowing visual generation of CSS code for common elements (box-shadows, filters, inputs) and converting Tailwind classes to standard CSS. The goal is to streamline the creation of custom styles without manually writing CSS code.",
   "projects.csstyle.status": "Completed",
@@ -123,6 +131,8 @@
   "projects.csstyle.challange4.description": "I implemented a feature that allows users to save their generated styles and preview them in real-time. This enhances the user experience by allowing them to see how styles are applied without needing to reload the page.",
   "projects.csstyle.learnings": "Through the development of CSStyle.me, I learned about code generation, delved deeper into CSS, the importance of an attractive user interface, and the need to simplify complex processes. This project has allowed me to apply my React knowledge, as well as explore new technologies to improve the user experience.",
 
+  "projects.shortmy.metaTitle": "ShortMy Project | Link Shortener by Adrià",
+  "projects.shortmy.metaDescription": "Discover ShortMy, a full-stack link shortener project. An early development by Adrià Entreserra using React and Node.js.",
   "projects.shortmy.pageTitle": "ShortMy - Complete Link Shortener",
   "projects.shortmy.pageDescription": "ShortMy was one of my first full-stack web projects, conceived as a link shortener with complete functionalities like user registration, statistics, and custom QR generation. Although currently archived due to database management issues, it was a key project for understanding frontend-backend interaction and building a web application from scratch.",
   "projects.shortmy.status": "Archived...",

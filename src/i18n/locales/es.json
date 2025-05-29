@@ -3,7 +3,7 @@
   "landing.description": "Soy Adrià Entreserra, un desarrollador Full Stack apasionado por crear soluciones web y móviles intuitivas. Explora mis proyectos desarrollados con React, Astro, y más.",
   "landing.keywords": "Adrià Entreserra, portfolio, desarrollador Full Stack, React, React Native, proyectos, habilidades, estudios, aplicaciones multiplataforma",
   "landing.ogTitle": "Adrià Entreserra | Porfolio de Desarrollador Full Stack",
-  "landing.ogDescription": "Descubre los proyectos de un desarrollador full stack",
+  "landing.ogDescription": "Descubre los proyectos y habilidades de Adrià Entreserra, un desarrollador Full Stack especializado en React, React Native y tecnologías modernas.",
 
   "nav.projects": "Proyectos",
   "nav.skills": "Habilidades",
@@ -63,6 +63,8 @@
   "footer.description": "Estoy buscando mi primera oportunidad profesional. Si tu equipo necesita un desarrollador Full-Stack apasionado y creativo, me encantaría conocer más sobre tu proyecto.",
   "footer.copy": "© 2025 ByAdri - Full-Stack Developer",
 
+  "projects.eppets.metaTitle": "Proyecto Eppets | Gestión de Mascotas por Adrià Entreserra",
+  "projects.eppets.metaDescription": "Descubre Eppets, una app móvil para el cuidado de mascotas exóticas. Proyecto final de grado de Adrià Entreserra con React Native y Firebase.",
   "projects.eppets.pageTitle": "Eppets - Gestión Integral de Mascotas",
   "projects.eppets.pageDescription": "Eppets, mi proyecto final de grado, es una aplicación móvil integral diseñada para el cuidado exhaustivo de todo tipo de mascotas, con un enfoque especial en las necesidades de las exóticas. Permite a los dueños realizar un seguimiento detallado de peso, gestionar recordatorios veterinarios, mantener un historial clínico, acceder a una wiki de cuidados específicos y conectar con una comunidad para eventos.",
   "projects.eppets.status": "En Publicación en Google Play...",
@@ -78,6 +80,8 @@
   "projects.eppets.challange4.description": "Desarrollé una sección de wiki donde los usuarios pueden encontrar información sobre el cuidado de diferentes tipos de mascotas exóticas. Además, implementé una comunidad para que los usuarios puedan compartir eventos y experiencias, fomentando un sentido de comunidad entre los dueños de mascotas exóticas.",
   "projects.eppets.learnings": "Este proyecto fue clave para consolidar mis habilidades en desarrollo móvil full-stack. Profundicé en la integración de servicios como Firebase y Turso SQLite, la implementación de autenticación segura y el diseño de aplicaciones centradas en el usuario con React Native. Aprendí a gestionar datos sensibles y a construir una aplicación robusta lista para el mercado.",
 
+  "projects.burnlock.metaTitle": "Proyecto BurnLock | Gestor de Contraseñas Offline por Adrià",
+  "projects.burnlock.metaDescription": "Explora BurnLock, un gestor de contraseñas offline con generación local y compartición segura. Desarrollado por Adrià Entreserra.",
   "projects.burnlock.pageTitle": "BurnLock - Gestor de Contraseñas Offline",
   "projects.burnlock.pageDescription": "BurnLock es una aplicación móvil que prioriza la privacidad para la generación de contraseñas seguras y verdaderamente aleatorias, operando completamente offline y sin almacenar datos sensibles. Su innovador sistema de compartición de contraseñas divide la clave de desbloqueo entre el usuario y un servidor mínimo (que no guarda la contraseña hasheada), permitiendo una implementación segura de 2FA para el acceso compartido.",
   "projects.burnlock.status": "En Desarrollo...",
@@ -93,6 +97,8 @@
   "projects.burnlock.challange4.description": "Diseñé una interfaz simple de usar, entrar y crear, permitiendo al usuario guardar pressets para usar en cualquier momento.",
   "projects.burnlock.learnings": "Con BurnLock, fortalecí mis conocimientos en seguridad, criptografía básica y generación de aleatoriedad robusta. Fue un ejercicio práctico en la implementación de 2FA y el diseño de arquitecturas móviles que minimizan la exposición de datos. Este proyecto me permitió aplicar React Native y Firebase en un contexto donde la privacidad del usuario es primordial.",
 
+  "projects.inkpal.metaTitle": "Proyecto InkPal | App de Gestión de Lecturas por Adrià",
+  "projects.inkpal.metaDescription": "Conoce InkPal, un proyecto de app para gestión de lecturas con React Native. Un aprendizaje temprano de Adrià Entreserra en desarrollo móvil.",
   "projects.inkpal.pageTitle": "InkPal - Gestión de Lecturas",
   "projects.inkpal.pageDescription": "InkPal fue uno de mis primeros desarrollos en React Native, concebido como una app móvil para organizar lecturas, descubrir libros y conectar con otros lectores. Aunque su desarrollo se discontinuó por limitaciones en la cuota de la API de Google Books, el proyecto fue fundamental para mi aprendizaje temprano en la creación de aplicaciones móviles y la integración de servicios externos.",
   "projects.inkpal.status": "Archivado...",
@@ -108,6 +114,8 @@
   "projects.inkpal.challange4.description": "Diseñé una interfaz intuitiva y atractiva, centrada en la experiencia del usuario, que facilita la navegación y la gestión de lecturas. La aplicación incluía funcionalidades como seguimiento de lecturas, valoraciones de libros, un sistema de amistades para conectar con otros lectores, perfiles de usuario y gamificación.",
   "projects.inkpal.learnings": "InkPal fue una etapa crucial en mi desarrollo: me enfrenté por primera vez a la integración de APIs de terceros (y sus desafíos), exploré conceptos de sistemas de recomendación y reforcé la importancia de una UI atractiva. Aunque no llegó a producción, sentó las bases de mis habilidades en React Native y Firebase, y me enseñó lecciones valiosas sobre la viabilidad de proyectos dependientes de APIs externas.",
 
+  "projects.csstyle.metaTitle": "CSStyle.me | Generadores CSS por Adrià Entreserra",
+  "projects.csstyle.metaDescription": "CSStyle.me, una herramienta web con generadores CSS visuales creada por Adrià Entreserra. Simplifica tu flujo de trabajo CSS.",
   "projects.csstyle.pageTitle": "CSStyle.me - Generadores CSS para Desarrolladores",
   "projects.csstyle.pageDescription": "CSStyle.me es una herramienta web que desarrollé para simplificar la vida de los desarrolladores, permitiendo generar visualmente código CSS para elementos comunes (box-shadows, filtros, inputs) y convertir clases de Tailwind a CSS estándar. El objetivo es agilizar la creación de estilos personalizados sin escribir código CSS manualmente.",
   "projects.csstyle.status": "Completado",
@@ -123,6 +131,8 @@
   "projects.csstyle.challange4.description": "Implementé una funcionalidad que permite a los usuarios guardar sus estilos generados y previsualizarlos en tiempo real. Esto mejora la experiencia del usuario al permitirle ver cómo se aplican los estilos sin necesidad de recargar la página.",
   "projects.csstyle.learnings": "A través del desarrollo de CSStyle.me, he aprendido sobre la generación de código, investigando CSS más a fondo, la importancia de una interfaz de usuario atractiva y la necesidad de simplificar procesos complejos. Este proyecto me ha permitido aplicar mis conocimientos de React, así como explorar nuevas tecnologías para mejorar la experiencia del usuario.",
 
+  "projects.shortmy.metaTitle": "Proyecto ShortMy | Acortador de Enlaces por Adrià",
+  "projects.shortmy.metaDescription": "Descubre ShortMy, un proyecto de acortador de enlaces full-stack. Un desarrollo temprano de Adrià Entreserra con React y Node.js.",
   "projects.shortmy.pageTitle": "ShortMy - Acortador de Enlaces Completo",
   "projects.shortmy.pageDescription": "ShortMy fue uno de mis primeros proyectos web full-stack, concebido como un acortador de enlaces con funcionalidades completas como registro de usuarios, estadísticas y generación de QRs personalizados. Aunque actualmente archivado debido a la gestión de la base de datos, fue un proyecto clave para entender la interacción frontend-backend y construir una aplicación web desde cero.",
   "projects.shortmy.status": "Archivado...",

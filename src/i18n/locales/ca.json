@@ -3,7 +3,7 @@
   "landing.description": "Sóc l'Adrià Entreserra, un desenvolupador Full Stack apassionat per crear solucions web i mòbils intuïtives. Explora els meus projectes desenvolupats amb React, Astro i més.",
   "landing.keywords": "Adrià Entreserra, portafoli, desenvolupador Full Stack, React, React Native, projectes, habilitats, estudis, aplicacions multiplataforma",
   "landing.ogTitle": "Adrià Entreserra | Portafoli de Desenvolupador Full Stack",
-  "landing.ogDescription": "Descobreix els projectes d'un desenvolupador full stack",
+  "landing.ogDescription": "Descobreix els projectes i habilitats d'Adrià Entreserra, un desenvolupador Full Stack especialitzat en React, React Native i tecnologies modernes.",
 
   "nav.projects": "Projectes",
   "nav.skills": "Habilitats",
@@ -63,6 +63,8 @@
   "footer.description": "Estic buscant la meva primera oportunitat professional. Si el teu equip necessita un desenvolupador Full-Stack apassionat i creatiu, m'encantaria conèixer més sobre el teu projecte.",
   "footer.copy": "© 2025 ByAdri - Full-Stack Developer",
 
+  "projects.eppets.metaTitle": "Projecte Eppets | Gestió de Mascotes per Adrià Entreserra",
+  "projects.eppets.metaDescription": "Descobreix Eppets, una app mòbil per a la cura de mascotes exòtiques. Projecte final de grau d'Adrià Entreserra amb React Native i Firebase.",
   "projects.eppets.pageTitle": "Eppets - Gestió Integral de Mascotes",
   "projects.eppets.pageDescription": "Eppets, el meu projecte final de grau, és una aplicació mòbil integral dissenyada per a la cura exhaustiva de tota mena de mascotes, amb un enfocament especial en les necessitats de les exòtiques. Permet als propietaris realitzar un seguiment detallat del pes, gestionar recordatoris veterinaris, mantenir un historial clínic, accedir a una wiki de cures específiques i connectar amb una comunitat per a esdeveniments.",
   "projects.eppets.status": "En Publicació a Google Play...",
@@ -78,6 +80,8 @@
   "projects.eppets.challange4.description": "Vaig desenvolupar una secció de wiki on els usuaris poden trobar informació sobre la cura de diferents tipus de mascotes exòtiques. A més, vaig implementar una comunitat perquè els usuaris puguin compartir esdeveniments i experiències, fomentant un sentit de comunitat entre els propietaris de mascotes exòtiques.",
   "projects.eppets.learnings": "Aquest projecte va ser clau per consolidar les meves habilitats en desenvolupament mòbil full-stack. Vaig aprofundir en la integració de serveis com Firebase i Turso SQLite, la implementació d'autenticació segura i el disseny d'aplicacions centrades en l'usuari amb React Native. Vaig aprendre a gestionar dades sensibles i a construir una aplicació robusta llesta per al mercat.",
 
+  "projects.burnlock.metaTitle": "Projecte BurnLock | Gestor de Contrasenyes Offline per Adrià",
+  "projects.burnlock.metaDescription": "Explora BurnLock, un gestor de contrasenyes offline amb generació local i compartició segura. Desenvolupat per Adrià Entreserra.",
   "projects.burnlock.pageTitle": "BurnLock - Gestor de Contrasenyes Offline",
   "projects.burnlock.pageDescription": "BurnLock és una aplicació mòbil que prioritza la privacitat per a la generació de contrasenyes segures i veritablement aleatòries, operant completament offline i sense emmagatzemar dades sensibles. El seu innovador sistema de compartició de contrasenyes divideix la clau de desbloqueig entre l'usuari i un servidor mínim (que no desa la contrasenya hashejada), permetent una implementació segura de 2FA per a l'accés compartit.",
   "projects.burnlock.status": "En Desenvolupament...",
@@ -93,6 +97,8 @@
   "projects.burnlock.challange4.description": "Vaig dissenyar una interfície senzilla d'usar, entrar i crear, permetent a l'usuari desar preconfiguracions per usar en qualsevol moment.",
   "projects.burnlock.learnings": "Amb BurnLock, vaig enfortir els meus coneixements en seguretat, criptografia bàsica i generació d'aleatorietat robusta. Va ser un exercici pràctic en la implementació de 2FA i el disseny d'arquitectures mòbils que minimitzen l'exposició de dades. Aquest projecte em va permetre aplicar React Native i Firebase en un context on la privacitat de l'usuari és primordial.",
 
+  "projects.inkpal.metaTitle": "Projecte InkPal | App de Gestió de Lectures per Adrià",
+  "projects.inkpal.metaDescription": "Coneix InkPal, un projecte d'app per a gestió de lectures amb React Native. Un aprenentatge primerenc d'Adrià Entreserra en desenvolupament mòbil.",
   "projects.inkpal.pageTitle": "InkPal - Gestió de Lectures",
   "projects.inkpal.pageDescription": "InkPal va ser un dels meus primers desenvolupaments en React Native, concebut com una app mòbil per organitzar lectures, descobrir llibres i connectar amb altres lectors. Encara que el seu desenvolupament es va discontinuar per limitacions en la quota de l'API de Google Books, el projecte va ser fonamental per al meu aprenentatge primerenc en la creació d'aplicacions mòbils i la integració de serveis externs.",
   "projects.inkpal.status": "Arxivat...",
@@ -108,6 +114,8 @@
   "projects.inkpal.challange4.description": "Vaig dissenyar una interfície intuïtiva i atractiva, centrada en l'experiència de l'usuari, que facilita la navegació i la gestió de lectures. L'aplicació incloïa funcionalitats com seguiment de lectures, valoracions de llibres, un sistema d'amistats per connectar amb altres lectors, perfils d'usuari i gamificació.",
   "projects.inkpal.learnings": "InkPal va ser una etapa crucial en el meu desenvolupament: em vaig enfrontar per primera vegada a la integració d'APIs de tercers (i els seus reptes), vaig explorar conceptes de sistemes de recomanació i vaig reforçar la importància d'una UI atractiva. Encara que no va arribar a producció, va establir les bases de les meves habilitats en React Native i Firebase, i em va ensenyar lliçons valuoses sobre la viabilitat de projectes dependents d'APIs externes.",
 
+  "projects.csstyle.metaTitle": "CSStyle.me | Generadors CSS per Adrià Entreserra",
+  "projects.csstyle.metaDescription": "CSStyle.me, una eina web amb generadors CSS visuals creada per Adrià Entreserra. Simplifica el teu flux de treball CSS.",
   "projects.csstyle.pageTitle": "CSStyle.me - Generadors CSS per a Desenvolupadors",
   "projects.csstyle.pageDescription": "CSStyle.me és una eina web que vaig desenvolupar per simplificar la vida dels desenvolupadors, permetent generar visualment codi CSS per a elements comuns (box-shadows, filtres, inputs) i convertir classes de Tailwind a CSS estàndard. L'objectiu és agilitzar la creació d'estils personalitzats sense escriure codi CSS manualment.",
   "projects.csstyle.status": "Completat",
@@ -123,6 +131,8 @@
   "projects.csstyle.challange4.description": "Vaig implementar una funcionalitat que permet als usuaris desar els seus estils generats i previsualitzar-los en temps real. Això millora l'experiència de l'usuari en permetre-li veure com s'apliquen els estils sense necessitat de recarregar la pàgina.",
   "projects.csstyle.learnings": "A través del desenvolupament de CSStyle.me, he après sobre la generació de codi, investigant CSS més a fons, la importància d'una interfície d'usuari atractiva i la necessitat de simplificar processos complexos. Aquest projecte m'ha permès aplicar els meus coneixements de React, així com explorar noves tecnologies per millorar l'experiència de l'usuari.",
 
+  "projects.shortmy.metaTitle": "Projecte ShortMy | Escurçador d'Enllaços per Adrià",
+  "projects.shortmy.metaDescription": "Descobreix ShortMy, un projecte d'escurçador d'enllaços full-stack. Un desenvolupament primerenc d'Adrià Entreserra amb React i Node.js.",
   "projects.shortmy.pageTitle": "ShortMy - Escurçador d'Enllaços Complet",
   "projects.shortmy.pageDescription": "ShortMy va ser un dels meus primers projectes web full-stack, concebut com un escurçador d'enllaços amb funcionalitats completes com ara registre d'usuaris, estadístiques i generació de QRs personalitzats. Encara que actualment arxivat a causa de la gestió de la base de dades, va ser un projecte clau per entendre la interacció frontend-backend i construir una aplicació web des de zero.",
   "projects.shortmy.status": "Arxivat...",
