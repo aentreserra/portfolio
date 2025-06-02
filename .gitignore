@@ -23,7 +23,12 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+# vscode settings
 .vscode/
+
+# vercel config
 .vercel
 
+# Search Engine Verification Files
+# Google Search Console
 public/google6a6a4c456490f77f.html
