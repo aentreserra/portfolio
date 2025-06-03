@@ -1,11 +1,16 @@
 ---
 import '../styles/footer.css';
+import CVES from '../../public/CV_AdriàEntreserraSimónES.pdf';
+import CVEN from '../../public/CV_AdriàEntreserraSimónEN.pdf';
 
 const {
   title,
   description,
   copy
 } = Astro.props;
+
+const locale = Astro.currentLocale || 'en';
+
 ---
 
 <footer id="contact">
@@ -15,7 +20,7 @@ const {
   <div>
     <a href="mailto:hello@byadri.dev" rel="noopener noreferrer">Email</a>
     <a href="http://github.com/aentreserra/" target="_blank" rel="noopener noreferrer">Github</a>
-    <a href="" target="_blank" rel="noopener noreferrer">CV</a>
+    <a href={locale === 'en' ? CVEN : CVES} target="_blank" rel="noopener noreferrer">CV</a>
   </div>
   <p id="footer-copy">{copy}</p>
 </footer>
